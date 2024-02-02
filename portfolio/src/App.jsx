@@ -1,7 +1,6 @@
 import React from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import * as bootstrap from 'bootstrap';
+import './App.scss'
 import Header from './components/Header';
 import Home from './components/Home';
 import Projects from './components/Projects';
